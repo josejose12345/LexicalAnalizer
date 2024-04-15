@@ -20,3 +20,20 @@
 #define SEMICOLON       50
 #define COMMA           51
 #define COLON           52
+
+#define TWO_WAY_CLASSIFICATION_MODEL 300
+#define ALPHABET 301
+#define SYMBOL 302
+#define STRING 303
+#define STREAK 304
+#define CATEGORY 305
+
+#define MULTICOTOMIZE        400
+#define COUNT_CHANGE         401
+#define STREAK_NUMBER        402
+#define TOTAL_DATA_MODEL     403
+#define TOTAL_DATA_BLOCK     404
+#define TOTAL_DATA_TREATMENT 405
+#define GET_TOTAL_DATA       406
+#define GET_BLOCK_DATA       407
+#define GET_TREATMENT_DATA   408

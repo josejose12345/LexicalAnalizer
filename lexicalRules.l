@@ -8,6 +8,22 @@
 %option nounput yylineno
 
 %%
+alphabet {return ALPHABET;}
+symbol {return SYMBOL;}
+string {return STRING;}
+streak {return STREAK;}
+category {return CATEGORY;}
+two_way_classification_model { return TWO_WAY_CLASSIFICATION_MODEL; }
+
+multicotomize {return MULTICOTOMIZE;}
+countChange {return COUNT_CHANGE;}
+streakNumber {return STREAK_NUMBER;}
+totalDataModel {return TOTAL_DATA_MODEL;}
+totalDataBlock {return TOTAL_DATA_BLOCK;}
+totalDataTreatement {return TOTAL_DATA_TREATEMENT;}
+getTotalData {return GET_TOTAL_DATA;}
+getBlockData {return GET_BLOCK_DATA;}
+getTreatementData {return GET_TREATEMENT_DATA;}
 
 int         { return INT; }
 float       { return FLOAT; }

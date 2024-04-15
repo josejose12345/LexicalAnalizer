@@ -7,6 +7,21 @@ extern char* yytext;
 
 const char* getTokenName(int token) {
     switch(token) {
+	case TWO_WAY_CLASSIFICATION_MODEL: return "TWO_WAY_CLASSIFICATION_MODEL";
+	case ALPHABET:                     return "ALPHABET";
+        case SYMBOL:                       return "SYMBOL";
+        case STRING:                       return "STRING";
+        case STREAK:                       return "STREAK";
+        case CATEGORY:                     return "CATEGORY";
+	case MULTICOTOMIZE:                return "MULTICOTOMIZE";
+        case COUNT_CHANGE:                 return "COUNT_CHANGE";
+        case STREAK_NUMBER:                return "STREAK_NUMBER";
+        case TOTAL_DATA_MODEL:             return "TOTAL_DATA_MODEL";
+        case TOTAL_DATA_BLOCK:             return "TOTAL_DATA_BLOCK";
+        case TOTAL_DATA_TREATMENT:         return "TOTAL_DATA_TREATMENT";
+        case GET_TOTAL_DATA:               return "GET_TOTAL_DATA";
+        case GET_BLOCK_DATA:               return "GET_BLOCK_DATA";
+        case GET_TREATMENT_DATA:           return "GET_TREATMENT_DATA";
         case IDENTIFIER:      return "IDENTIFIER";
         case INTEGER_LITERAL: return "INTEGER_LITERAL";
         case FLOAT_LITERAL:   return "FLOAT_LITERAL";
