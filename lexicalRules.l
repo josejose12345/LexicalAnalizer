@@ -8,6 +8,9 @@
 %option nounput yylineno
 
 %%
+
+print      { return PRINT; }
+
 Alphabet { return ALPHABET; }
 Streak {return STREAK;}
 Category {return CATEGORY;}
@@ -59,6 +62,7 @@ return      { return RETURN; }
 ":"         { return COLON; }
 "{"         { return LEFT_BRACE; }
 "}"         { return RIGHT_BRACE; }
+"."         { return DOT; }
 
 
 [a-zA-Z_][a-zA-Z0-9_]*  { return IDENTIFIER; }

@@ -15,3 +15,6 @@ sudo apt-get install byacc
 
 ### Run the code
 Use `bash automaticRun.sh`  to apply the lexical analyzer to the user input.
+
+## Testing
+There are 3 examples prepared for testing the lexical analyzer. Compare the input and output of this examples by running `bash Testing/testing.sh`.

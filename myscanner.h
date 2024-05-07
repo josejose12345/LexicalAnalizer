@@ -40,7 +40,10 @@
 #define COLON 604
 #define LEFT_BRACE 605
 #define RIGHT_BRACE 606
+#define DOT 607
 
 #define IDENTIFIER 700
 #define INTEGER_VALUE 701
 #define FLOAT_VALUE 702
+
+#define PRINT 800

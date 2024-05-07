@@ -32,6 +32,7 @@ const char* getTokenName(int token) {
         case COLON:           return "COLON";
         case LEFT_BRACE:      return "LEFT_BRACE";
         case RIGHT_BRACE:     return "RIGHT_BRACE";
+        case DOT:             return "DOT";
 
         case ALPHABET:        return "ALPHABET";
         case STREAK:          return "STREAK";
@@ -53,6 +54,8 @@ const char* getTokenName(int token) {
         case GET_TOTAL_DATA:  return "GET_TOTAL_DATA";
         case GET_BLOCK_DATA:  return "GET_BLOCK_DATA";
         case GET_TREATMENT_DATA: return "GET_TREATMENT_DATA";
+
+        case PRINT:           return "PRINT";
 
         default:              return "UNKNOWN";
     }
