@@ -46,7 +46,6 @@ const char* getTokenName(int token) {
         case GET_STREAKS:     return "GET_STREAKS";
         case ADD_SYMBOL:      return "ADD_SYMBOL";
         case COUNTER_FUNCTION: return "COUNTER_FUNCTION";
-        case TOTAL_STREAKS:   return "TOTAL_STREAKS";
         case MULTICOTOMIZE:   return "MULTICOTOMIZE";
         case TOTAL_DATA_MODEL: return "TOTAL_DATA_MODEL";
         case TOTAL_DATA_BLOCK: return "TOTAL_DATA_BLOCK";
@@ -54,6 +53,16 @@ const char* getTokenName(int token) {
         case GET_TOTAL_DATA:  return "GET_TOTAL_DATA";
         case GET_BLOCK_DATA:  return "GET_BLOCK_DATA";
         case GET_TREATMENT_DATA: return "GET_TREATMENT_DATA";
+
+        case STREAK_NUMBER: return "STREAK_NUMBER";
+        case TOTAL_STREAKS: return "TOTAL_STREAKS";
+        case STREAK_AVERAGE: return "STREAK_AVERAGE";
+        case BLOCK_STREAK_SUM: return "BLOCK_STREAK_SUM";
+        case TREATMENT_STREAK_SUM: return "TREATMENT_STREAK_SUM";
+        case AVERAGE_STREAK_BLOCK: return "AVERAGE_STREAK_BLOCK";
+        case AVERAGE_STREAK_TREATMENT: return "AVERAGE_STREAK_TREATMENT";
+        case MODEL_STREAK_SUM: return "MODEL_STREAK_SUM";
+        case MODEL_STREAK_AVERAGE: return "MODEL_STREAK_AVERAGE";
 
         case PRINT:           return "PRINT";
 

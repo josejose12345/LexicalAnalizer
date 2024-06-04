@@ -1,2 +1,1 @@
-int a = 12;
-int b = 3;
+a.getModelStreakSum();
