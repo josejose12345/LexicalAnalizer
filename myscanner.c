@@ -19,7 +19,14 @@ const char* getTokenName(int token) {
         case WHILE:           return "WHILE";
         case RETURN:          return "RETURN";
 
-        case OPERATOR:        return "OPERATOR";
+        case PLUS_OPERATOR:   return "PLUS_OPERATOR";
+        case MINUS_OPERATOR:  return "MINUS_OPERATOR";
+        case MULTIPLY_OPERATOR: return "MULTIPLY_OPERATOR";
+        case DIVIDE_OPERATOR: return "DIVIDE_OPERATOR";
+        case EQUAL_OPERATOR:  return "EQUAL_OPERATOR";
+        case LESS_THAN_OPERATOR: return "LESS_THAN_OPERATOR";
+        case GREATER_THAN_OPERATOR: return "GREATER_THAN_OPERATOR";
+        case NOT_OPERATOR:    return "NOT_OPERATOR";
         case LOGICAL_AND:     return "LOGICAL_AND";
         case LOGICAL_OR:      return "LOGICAL_OR";
         case EQUAL:           return "EQUAL";
@@ -54,15 +61,14 @@ const char* getTokenName(int token) {
         case GET_BLOCK_DATA:  return "GET_BLOCK_DATA";
         case GET_TREATMENT_DATA: return "GET_TREATMENT_DATA";
 
-        case STREAK_NUMBER: return "STREAK_NUMBER";
-        case TOTAL_STREAKS: return "TOTAL_STREAKS";
-        case STREAK_AVERAGE: return "STREAK_AVERAGE";
-        case BLOCK_STREAK_SUM: return "BLOCK_STREAK_SUM";
-        case TREATMENT_STREAK_SUM: return "TREATMENT_STREAK_SUM";
-        case AVERAGE_STREAK_BLOCK: return "AVERAGE_STREAK_BLOCK";
-        case AVERAGE_STREAK_TREATMENT: return "AVERAGE_STREAK_TREATMENT";
-        case MODEL_STREAK_SUM: return "MODEL_STREAK_SUM";
-        case MODEL_STREAK_AVERAGE: return "MODEL_STREAK_AVERAGE";
+        case GET_TOTAL_STREAKS: return "GET_TOTAL_STREAKS";
+        case GET_STREAK_AVERAGE: return "GET_STREAK_AVERAGE";
+        case GET_BLOCK_STREAK_SUM: return "GET_BLOCK_STREAK_SUM";
+        case GET_TREATMENT_STREAK_SUM: return "GET_TREATMENT_STREAK_SUM";
+        case GET_AVERAGE_STREAK_BLOCK: return "GET_AVERAGE_STREAK_BLOCK";
+        case GET_AVERAGE_STREAK_TREATMENT: return "GET_AVERAGE_STREAK_TREATMENT";
+        case GET_MODEL_STREAK_SUM: return "GET_MODEL_STREAK_SUM";
+        case GET_MODEL_STREAK_AVERAGE: return "GET_MODEL_STREAK_AVERAGE";
 
         case PRINT:           return "PRINT";
 
